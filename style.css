@@ -1,0 +1,66 @@
+.icon {
+  color: white;
+}
+
+.underRow {
+  display: flex;
+  justify-content:flex-end;
+}
+
+#heading {
+  width: 100vw;
+  height: 700px;
+  background-image: url("imgs/jan-senderek-_v5kxvrRFo4-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.c {
+  padding-top: 20rem;
+}
+.img {
+  width:350px;
+  height: 350px;
+}
+.imgRow {
+  display: flex;
+  justify-content: space-around;
+}
+.techImg {
+  height: 100px;
+  width: 100px;
+}
+.pro {
+  margin-left: 5rem;
+}
+
+.projectGrid {
+  display: flex;
+  justify-content: space-around;
+}
+.bottomRow {
+  color:white;
+  display: flex;
+  justify-content: space-around;
+}
+#myBtn {
+  cursor: pointer;
+  color:white;
+  margin-left: 48%;
+  padding-top: 30px;
+}
+
+#myBtn:hover {
+  color: red;
+}
+.close {
+  margin-bottom: -25px;
+}
+
+.projectImg {
+  height: 250px;
+  width: 450px;
+}
+.icon:hover {
+  color: red;
+}
