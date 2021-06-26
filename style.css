@@ -2,6 +2,10 @@
   color: white;
 }
 
+.bigLink {
+  font-size: 2rem;
+}
+
 .underRow {
   display: flex;
   justify-content:flex-end;
@@ -32,6 +36,14 @@
 }
 .pro {
   margin-left: 5rem;
+}
+.link1 {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+}
+.link1:hover {
+  color: black;
 }
 
 .projectGrid {
