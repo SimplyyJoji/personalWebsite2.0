@@ -1,3 +1,7 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
 .icon {
   color: white;
 }
@@ -5,14 +9,18 @@
 .bigLink {
   font-size: 2rem;
 }
+.mpb {
+  padding-bottom: 5rem;
+}
 
 .underRow {
+ 
   display: flex;
   justify-content:flex-end;
 }
 
+
 #heading {
-  width: 100vw;
   height: 700px;
   background-image: url("imgs/jan-senderek-_v5kxvrRFo4-unsplash.jpg");
   background-position: center;
@@ -34,6 +42,7 @@
   height: 100px;
   width: 100px;
 }
+
 .pro {
   margin-left: 5rem;
 }
@@ -46,6 +55,7 @@
   color: black;
 }
 
+
 .projectGrid {
   display: flex;
   justify-content: space-around;
@@ -53,7 +63,7 @@
 .bottomRow {
   color:white;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 #myBtn {
   cursor: pointer;
@@ -68,11 +78,15 @@
 .close {
   margin-bottom: -25px;
 }
+#projects {
+  background-color: aqua;
+}
 
 .projectImg {
   height: 250px;
-  width: 450px;
+  width: 350px;
 }
+
 .icon:hover {
-  color: red;
+  color: aqua;
 }
