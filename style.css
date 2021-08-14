@@ -39,8 +39,8 @@
   justify-content: space-around;
 }
 .techImg {
-  height: 100px;
-  width: 100px;
+  height: 60%;
+  width: 60%;
 }
 
 .pro {
@@ -79,14 +79,14 @@
   margin-bottom: -25px;
 }
 #projects {
-  background-color: aqua;
+  background-color: #2cd6f0;
 }
 
 .projectImg {
-  height: 250px;
-  width: 350px;
+  height: 110%;
+  width: 110%;
 }
 
 .icon:hover {
-  color: aqua;
+  color: #2cd6f0;
 }
