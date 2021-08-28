@@ -4,6 +4,8 @@
 }
 .icon {
   color: white;
+  padding-top:40px;
+  padding-left: 190px;
 }
 
 .bigLink {
@@ -83,10 +85,18 @@
 }
 
 .projectImg {
-  height: 110%;
-  width: 110%;
+  height: 100%;
+  width: 100%;
 }
 
 .icon:hover {
   color: #2cd6f0;
 }
+
+.link {
+  padding-left: 70px;
+}
+
+.link2 {
+  padding-left: 200px;
+} 
