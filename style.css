@@ -2,9 +2,19 @@
   margin: 0px;
   padding: 0px;
 }
+.lc {
+ color: #EEEEEE;
+}
+
+.hp{
+  font-family: 'Montserrat', sans-serif;
+}
 .icon {
   color: white;
   padding-left: 100px;
+}
+#about {
+  background-color: #334257;
 }
 
 .icon:hover { 
@@ -22,6 +32,10 @@
  
   display: flex;
   justify-content:flex-end;
+}
+
+#exp {
+  background-color: grey3333333;
 }
 
 
@@ -61,7 +75,9 @@
   color: black;
 }
 
-
+ #exp {
+  background-color: #EEEEEE;
+ }
 .projectGrid {
   display: flex;
   justify-content: space-around;
@@ -86,7 +102,7 @@
   margin-bottom: -25px;
 }
 #projects {
-  background-color: #2cd6f0;
+  background-color: #476072;
 }
 
 .projectImg {
@@ -107,7 +123,4 @@
 
 .lang {
  padding: 1rem 50px;
-}
-.words {
-  
 }
