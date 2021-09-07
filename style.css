@@ -41,12 +41,15 @@
 
 #heading {
   height: 700px;
-  background-image: url("imgs/jan-senderek-_v5kxvrRFo4-unsplash.jpg");
+  z-index: 0;
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imgs/jan-senderek-_v5kxvrRFo4-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 .c {
+  z-index: 2;
   padding-top: 20rem;
 }
 .img {
